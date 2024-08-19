@@ -1,0 +1,18 @@
+.admin-container {
+  min-height: 100vh;
+  background-image: url('/src/assets/car_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dash-home {
+  height: fit-content;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+td {
+  white-space: nowrap;
+}

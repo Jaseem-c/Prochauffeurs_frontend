@@ -1,0 +1,54 @@
+#hirer_details {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: "Lora", serif;
+  /* font-family: "Inter", sans-serif; */
+}
+  
+#hirer_details > div {
+  width: 100vw;
+}
+
+.cp {
+  /* max-width: 400px; */
+  flex: 1;
+  padding: 0 10px;
+}
+
+form {
+  width: 100%;
+}
+
+.custom-form-select {
+  background-color: black !important;
+  color: white !important;
+  font-family: "Inter", sans-serif;
+}
+
+.custom-form-select option {
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.back, .book {
+  margin: 0px 15px;
+}
+
+@media (max-width: 438px) {
+  .back, .book {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 439px) {
+  .back, .book {
+    width: 150px;
+  }
+}

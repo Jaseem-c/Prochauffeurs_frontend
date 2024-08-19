@@ -1,0 +1,1 @@
+export const serverUrl = 'http://localhost:3000' // Base URL of the backend server

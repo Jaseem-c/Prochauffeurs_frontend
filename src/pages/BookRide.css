@@ -1,0 +1,89 @@
+#book_ride {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: "Lora", serif;
+  /* font-family: "Inter", sans-serif; */
+}
+  
+#book_ride > div {
+  width: 100vw;
+}
+
+.cp {
+  /* max-width: 400px; */
+  flex: 1;
+  padding: 0 10px;
+}
+
+form {
+  width: 100%;
+}
+
+.custom-form-select {
+  background-color: black !important;
+  color: white !important;
+  font-family: "Inter", sans-serif;
+}
+
+.custom-form-select option {
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.back, .book {
+  margin: 0px 15px;
+}
+.disabled {
+  pointer-events: none; /* Prevent interaction */
+  opacity: 0.5; /* Visual indication */
+}
+
+
+/* DropdownInput.css */
+
+/* Container for dropdown input */
+.dropdown-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown input styling */
+.dropdown-input {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Option styling */
+.dropdown-input option {
+  background-color: black;
+  color: white;
+}
+/* date */
+
+@media (max-width: 438px) {
+  .back, .book {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 439px) {
+  .back, .book {
+    width: 150px;
+  }
+}
+
+
+

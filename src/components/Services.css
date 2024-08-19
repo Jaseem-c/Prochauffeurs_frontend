@@ -1,0 +1,61 @@
+.bordr {
+  border-radius: 50px;
+  width: 150px;
+  height: 200px;
+}
+
+.Htitle {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 70px;
+}
+
+.BkGrnd2{
+  background: linear-gradient(180deg, #0F2324, #041818); 
+  color: #fff;
+  padding: 150px 0px;
+}
+
+.paratxt {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 992px) {
+  .cardw,
+  .text-center {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    border-radius: 15px;
+  }
+
+  .paratxt {
+    font-size: 16px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 576px) {
+  .cardw,
+  .text-center {
+    margin-bottom: 15px;
+  }
+
+  .card {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .paratxt {
+    font-size: 14px;
+  }
+
+  .card-img {
+    height: auto;
+  }
+}

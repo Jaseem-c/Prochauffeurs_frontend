@@ -1,0 +1,208 @@
+
+.backGrnd{
+    height: 100vh;
+    background-image: url('/src/assets/car_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Headtitle{
+    font-family: "Lora", serif;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.Htitle{
+    font-family: "Lora", serif;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 70px;
+}
+
+.para{
+    font-family: "Inter", sans-serif;
+}
+
+
+.bookbtn {
+    font-size: 16px;
+    color: #fff; 
+    background: linear-gradient(45deg, #173c3d, #020C0C); 
+    border: 2px solid #375353 !important;
+    transition: all 0.3s ease-in-out; 
+    
+  }
+  
+  .bookbtn:hover {
+    background: linear-gradient(45deg, #205556, #062a2a); 
+    border: 2px solid #375353 !important;
+    transition: all 0.5s ease-in-out; 
+    
+  }
+
+.BkGrnd{
+    background: linear-gradient(180deg, #0F2324, #020C0C); 
+    color: #fff;
+    padding: 150px 0px;
+}
+
+.BkGrnd2{
+    background: linear-gradient(180deg, #0F2324, #041818); 
+    color: #fff;
+    padding: 150px 0px;
+}
+
+.BkGrnd3{
+    background: linear-gradient(180deg, #031212, #020d0d); 
+    color: #fff;
+    padding: 150px 0px;
+}
+
+.booktransfer{
+    background: linear-gradient(45deg, #2f6d6f, #062121) !important; 
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+.navtxt{
+    color: #fff !important;
+    font-size: 16px;
+}
+
+
+
+.custom-navbar {
+    margin: 0 auto; 
+    margin-top: -45px !important;
+}
+  
+
+.custom-navbar .navbar-nav .nav-link {
+    font-size:16px; 
+    font-family: "Inter", sans-serif;
+    
+}
+  
+.custom-navbar .navbar-toggler {
+    border: none; 
+}
+  
+
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3e%3cpath fill="white" d="M2 4.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5z"/%3e%3c/svg%3e');
+}
+
+
+.custom-navbar .navbar-toggler {
+  border-color: transparent; 
+}
+
+
+
+/* Menu hover effect*/
+
+.custom-navbar .navbar-nav .nav-link {
+  position: relative;
+  padding: 0.5rem 1rem; 
+}
+
+.custom-navbar .navbar-nav .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px; 
+  background-color: white; 
+  transition: width 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: white; 
+}
+
+
+
+
+/* Base styles for larger screens */
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Media query for tablets and smaller screens */
+  @media (max-width: 992px) {
+    .container-fluid {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .Headtitle {
+      font-size: 40px;
+    }
+  
+    .Htitle {
+      font-size: 30px;
+    }
+  
+    .bookbtn {
+      font-size: 14px;
+    }
+  
+    .custom-navbar .navbar-nav .nav-link {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 576px) {
+    .Headtitle {
+      font-size: 38px;
+    }
+  
+    .Htitle {
+      font-size: 25px;
+      line-height: 40px;
+      margin: -80px 0px;
+    }
+  
+    .bookbtn {
+      font-size: 12px;
+      margin-top: 20px;
+    }
+  
+    .custom-navbar .navbar-nav .nav-link {
+      font-size: 12px;
+    }
+  
+    .booktransfer {
+      margin: 30px 10px -50px 10px !important;
+      padding: 130px 25px 50px 25px;
+    }
+    .smallscreen{
+        margin: 0px 15px;
+        
+    }
+
+    .custom-navbar .navbar-collapse {
+      text-align: center;
+      
+    }
+  
+    .custom-navbar .navbar-nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .custom-navbar .navbar-nav .nav-link {
+      margin: 10px 0; 
+      font-size: 18px;
+    }
+    
+  }
+  
+
